@@ -1,0 +1,96 @@
+/* GOOGLE FONT - Noto Serif, Inter  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* font vars */
+    --font-nato-serif: "Noto Serif", serif;
+    --font-inter: "Inter", sans-serif;
+
+    /* color vars */
+    --forest-fire: #E95A08;
+    --washed-out-purple: #8987A1;
+    --lyla: #000000;
+    --full-white: #FFFFFF;
+}
+
+/* COMMON STYLES FOR WHOLE PROJECT */
+a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: auto;
+    padding-inline: 1rem;
+}
+
+.font-washed-out-purple {
+    color: var(--washed-out-purple);
+}
+
+.font-lyla {
+    color: var(--lyla);
+}
+
+
+/* HEADER SECTION STYLES */
+.navigation-link {
+    font-family: var(--font-inter);
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: normal;
+
+}
+
+.header-container {
+    min-height: 7vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTIONS SECTION STYLES */
+
+
+
+
+
+
+
+/* FOOTER SECTION STYLES */
+
+
+
+
+
+/* RESPONSIVE STYLES */

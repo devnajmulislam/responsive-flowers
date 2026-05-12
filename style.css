@@ -94,3 +94,33 @@ li {
 
 
 /* RESPONSIVE STYLES */
+
+/* FOR DESKTOPS */
+@media (max-width: 1280px) {}
+
+/* FOR TABLETS */
+@media (max-width: 1024px) {}
+
+/* FOR MOBILE */
+@media (max-width: 768px) {}
+
+/* FOR SMALL DEVICES */
+@media (max-width: 480px) {
+    .header-container {
+        padding-top: 1rem;
+    }
+
+    .main-navigation {
+        display: none;
+    }
+
+    .brand-logo {
+        width: 63px;
+        height: 38px;
+    }
+
+    .brand-logo img {
+        width: 100%;
+        height: auto;
+    }
+}

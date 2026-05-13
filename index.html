@@ -1,80 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Flowers</title>
 
     <!-- FONT AWESOME CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- STYLES FILES -->
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- HEADER PART -->
     <header class="site-header">
-        <div class="header-container wrapper flex between">
+      <div class="header-container wrapper flex between">
+        <!-- Logo -->
+        <a href="#" class="brand-logo">
+          <img
+            src="./assets/logo.png"
+            alt="Fauget Flower Shop Logo"
+            class="brand-logo-image"
+          />
+        </a>
 
-            <!-- Logo -->
-            <a href="#" class="brand-logo">
-                <img src="./assets/logo.png" alt="Fauget Flower Shop Logo" class="brand-logo-image" />
-            </a>
+        <!-- Navigation -->
+        <nav class="main-navigation">
+          <ul class="navigation-list flex gap-3">
+            <li class="navigation-item">
+              <a
+                href="#"
+                class="navigation-link navigation-link--active font-lyla"
+              >
+                Home
+              </a>
+            </li>
 
-            <!-- Navigation -->
-            <nav class="main-navigation">
-                <ul class="navigation-list flex gap-3">
+            <li class="navigation-item">
+              <a href="#" class="navigation-link font-washed-out-purple">
+                Shop
+              </a>
+            </li>
 
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link navigation-link--active font-lyla">
-                            Home
-                        </a>
-                    </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link font-washed-out-purple">
+                About Us
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link font-washed-out-purple">
-                            Shop
-                        </a>
-                    </li>
+        <div class="cart-section">
+          <a href="#" class="navigation-link cart-button font-lyla">
+            <!-- Cart Icon -->
+            <span class="cart-button-icon">
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </span>
 
-                    <li class="navigation-item">
-                        <a href="#" class="navigation-link font-washed-out-purple">
-                            About Us
-                        </a>
-                    </li>
-
-                </ul>
-            </nav>
-
-            <div class="cart-section">
-                <a href="#" class="navigation-link cart-button font-lyla">
-
-                    <!-- Cart Icon -->
-                    <span class="cart-button-icon">
-                        <i class="fa-solid fa-cart-arrow-down"></i>
-                    </span>
-
-                    <!-- Cart Text -->
-                    <span class="cart-button-text">
-                        Cart ($56)
-                    </span>
-
-                </a>
-            </div>
-
+            <!-- Cart Text -->
+            <span class="cart-button-text"> Cart ($56) </span>
+          </a>
         </div>
+      </div>
     </header>
+
+    <!-- HERO PART -->
+    <section class="fresh-flowers-section wrapper">
+      <div class="fresh-flowers-container flex between">
+        <!-- Content Area -->
+        <div class="fresh-flowers-content">
+          <h1 class="fresh-flowers-title">
+            <span class="title-dark">ALWAYS</span>
+            <span class="title-highlight">FRESH</span>
+            <span class="title-highlight">FLOWERS</span>
+          </h1>
+
+          <p class="fresh-flowers-description">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+
+        <!-- Image Area -->
+        <div class="fresh-flowers-image-wrapper">
+          <img
+            src="./assets/hero-flower.png"
+            alt="Colorful fresh flower bouquet"
+            class="fresh-flowers-image"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- SECTIONS PART -->
     <main></main>
 
     <!-- FOOTER PART -->
     <footer></footer>
-
-</body>
-
+  </body>
 </html>

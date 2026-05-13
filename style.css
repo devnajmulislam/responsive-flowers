@@ -1,126 +1,147 @@
 /* GOOGLE FONT - Noto Serif, Inter  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    /* font vars */
-    --font-nato-serif: "Noto Serif", serif;
-    --font-inter: "Inter", sans-serif;
+  /* font vars */
+  --font-nato-serif: "Noto Serif", serif;
+  --font-inter: "Inter", sans-serif;
 
-    /* color vars */
-    --forest-fire: #E95A08;
-    --washed-out-purple: #8987A1;
-    --lyla: #000000;
-    --full-white: #FFFFFF;
+  /* color vars */
+  --forest-fire: #e95a08;
+  --washed-out-purple: #8987a1;
+  --lyla: #000000;
+  --full-white: #ffffff;
 }
 
 /* COMMON STYLES FOR WHOLE PROJECT */
 a {
-    font-size: 1rem;
-    text-decoration: none;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .gap-3 {
-    gap: 3rem;
+  gap: 3rem;
 }
 
 .wrapper {
-    max-width: 1140px;
-    margin: auto;
-    padding-inline: 1rem;
+  max-width: 1140px;
+  margin: auto;
+  padding-inline: 1rem;
 }
 
 .font-washed-out-purple {
-    color: var(--washed-out-purple);
+  color: var(--washed-out-purple);
 }
 
 .font-lyla {
-    color: var(--lyla);
+  color: var(--lyla);
 }
-
 
 /* HEADER SECTION STYLES */
 .navigation-link {
-    font-family: var(--font-inter);
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: normal;
-
+  font-family: var(--font-inter);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: normal;
 }
 
 .header-container {
-    min-height: 7vh;
+  min-height: 7vh;
 }
 
+/* HERO SECTION STYLES */
+.fresh-flowers-section {
+}
 
+.fresh-flowers-container {
+  min-height: 46vh;
+  margin: 120px auto;
+  align-items: end;
+}
 
+.fresh-flowers-content .fresh-flowers-title {
+  font-family: var(--font-nato-serif);
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 100%;
+  letter-spacing: normal;
+}
 
+.fresh-flowers-title .title-dark {
+  color: var(--lyla);
+}
 
+.fresh-flowers-title .title-highlight {
+  color: var(--forest-fire);
+}
 
+.fresh-flowers-content {
+  max-width: 570px;
+}
 
-
-
-
+.fresh-flowers-content .fresh-flowers-description {
+  color: var(--washed-out-purple);
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 100%;
+  letter-spacing: normal;
+  margin-top: 0.8rem;
+}
 /* SECTIONS SECTION STYLES */
 
-
-
-
-
-
-
 /* FOOTER SECTION STYLES */
-
-
-
-
 
 /* RESPONSIVE STYLES */
 
 /* FOR DESKTOPS */
-@media (max-width: 1280px) {}
+@media (max-width: 1280px) {
+}
 
 /* FOR TABLETS */
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+}
 
 /* FOR MOBILE */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+}
 
 /* FOR SMALL DEVICES */
 @media (max-width: 480px) {
-    .header-container {
-        padding-top: 1rem;
-    }
+  .header-container {
+    padding-top: 1rem;
+  }
 
-    .main-navigation {
-        display: none;
-    }
+  .main-navigation {
+    display: none;
+  }
 
-    .brand-logo {
-        width: 63px;
-        height: 38px;
-    }
+  .brand-logo {
+    width: 63px;
+    height: 38px;
+  }
 
-    .brand-logo img {
-        width: 100%;
-        height: auto;
-    }
+  .brand-logo img {
+    width: 100%;
+    height: auto;
+  }
 }

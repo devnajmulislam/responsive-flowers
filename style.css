@@ -107,6 +107,15 @@ li {
   letter-spacing: normal;
   margin-top: 0.8rem;
 }
+
+.fresh-flowers-image-wrapper {
+  max-width: 570px;
+}
+
+.fresh-flowers-image {
+  width: 100%;
+}
+
 /* SECTIONS SECTION STYLES */
 
 /* FOOTER SECTION STYLES */
@@ -119,14 +128,42 @@ li {
 
 /* FOR TABLETS */
 @media (max-width: 1024px) {
+  /* HERO */
+  .fresh-flowers-container {
+    margin: 40px auto;
+  }
+
+  .fresh-flowers-content .fresh-flowers-title {
+    font-size: 3rem;
+  }
+
+  .fresh-flowers-content .fresh-flowers-description {
+    font-size: 1rem;
+  }
 }
 
 /* FOR MOBILE */
 @media (max-width: 768px) {
+  /* HERO */
+  .fresh-flowers-content .fresh-flowers-title {
+    font-size: 2rem;
+  }
+
+  .fresh-flowers-content .fresh-flowers-description {
+    font-size: 0.9rem;
+  }
+
+  .fresh-flowers-content {
+    flex: 1;
+  }
+  .fresh-flowers-image-wrapper {
+    flex: 1;
+  }
 }
 
 /* FOR SMALL DEVICES */
 @media (max-width: 480px) {
+  /* NAVBAR */
   .header-container {
     padding-top: 1rem;
   }
@@ -143,5 +180,29 @@ li {
   .brand-logo img {
     width: 100%;
     height: auto;
+  }
+
+  /* HERO */
+  .fresh-flowers-container {
+    flex-direction: column;
+  }
+
+  .fresh-flowers-content {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .fresh-flowers-title {
+    font-size: 1.5rem;
+  }
+
+  .fresh-flowers-description {
+    font-size: 0.8rem;
+  }
+
+  .fresh-flowers-image-wrapper {
+    max-width: 350px;
+    margin: auto;
   }
 }

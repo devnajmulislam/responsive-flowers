@@ -118,6 +118,101 @@ li {
 
 /* SECTIONS SECTION STYLES */
 
+/* PLANTS SECTION */
+.plants-section {
+  margin: 7.5rem auto 13rem auto;
+}
+
+.plants-header {
+  max-width: 888px;
+  margin: auto;
+}
+
+.plants-title {
+  color: var(--lyla);
+  font-family: var(--font-nato-serif);
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 100%;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.title-highlight {
+  color: var(--forest-fire);
+}
+
+.plants-description {
+  color: var(--washed-out-purple);
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 100%;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 1rem 0 3.1rem 0;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(270px, 1fr));
+  column-gap: 20px;
+  row-gap: 50px;
+}
+
+.plant-card {
+  max-width: 270px;
+  height: 480px;
+  gap: 30px;
+}
+
+.plant-image-wrapper {
+  max-width: 270px;
+}
+
+.plant-image {
+  width: 100%;
+}
+
+.plant-content {
+  max-width: 130px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.plant-name {
+  color: var(--lyla);
+  font-family: var(--lyla);
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 150%;
+  letter-spacing: normal;
+  margin-top: 20px;
+}
+
+.plant-price {
+  color: var(--lyla);
+  font-family: var(--font-inter);
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 150%;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-btn {
+  padding: 26px 50px;
+  background-color: var(--forest-fire);
+  color: var(--full-white);
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: normal;
+  width: 100%;
+  border: none;
+}
+
 /* FOOTER SECTION STYLES */
 
 /* RESPONSIVE STYLES */

@@ -235,6 +235,11 @@ li {
   .fresh-flowers-content .fresh-flowers-description {
     font-size: 1rem;
   }
+
+  /* PLANTS SECTION */
+  .plants-grid {
+    grid-template-columns: repeat(3, minmax(270px, 1fr));
+  }
 }
 
 /* FOR MOBILE */
@@ -253,6 +258,11 @@ li {
   }
   .fresh-flowers-image-wrapper {
     flex: 1;
+  }
+
+  /* PLANTS SECTION */
+  .plants-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -301,5 +311,24 @@ li {
 
   .fresh-flowers-image-wrapper {
     padding-block: 1.7rem;
+  }
+
+  /* PLANTS SECTION */
+
+  .plants-header {
+    max-width: 330px;
+    text-align: center;
+  }
+  .plants-title {
+    font-size: 1.5rem;
+  }
+
+  .plants-description {
+    font-size: 0.8rem;
+  }
+
+  .plants-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0px;
   }
 }

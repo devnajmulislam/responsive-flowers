@@ -213,6 +213,51 @@ li {
   border: none;
 }
 
+/* FLOWER SECTION */
+.flower-lover-section {
+  margin-bottom: 100px;
+}
+
+.flower-lover-container {
+  gap: 60px;
+}
+
+.flower-lover-image-wrapper {
+  max-width: 540px;
+  max-height: 600px;
+}
+
+.flower-lover-content {
+  max-width: 540px;
+}
+
+.flower-lover-title {
+  color: var(--lyla);
+  font-family: var(--font-nato-serif);
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 100%;
+  letter-spacing: normal;
+
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.flower-lover-features li {
+  list-style: disc;
+}
+
+.feature-item {
+  color: var(--washed-out-purple);
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 100%;
+  letter-spacing: normal;
+
+  margin-bottom: 20px;
+}
+
 /* FOOTER SECTION STYLES */
 
 /* RESPONSIVE STYLES */

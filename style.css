@@ -350,7 +350,6 @@ li {
 
   /* FLOWER LOVER */
   .flower-lover-container {
-    
     flex-direction: column;
   }
 
@@ -363,6 +362,10 @@ li {
 
   .flower-lover-features {
     padding-inline: 30px;
+  }
+
+  .trusted-seller-badge {
+    display: none;
   }
 }
 

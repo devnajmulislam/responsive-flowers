@@ -284,11 +284,52 @@ li {
   margin-bottom: 20px;
 }
 
-
 /* LATEST DEAL STYLES */
+.latest-deals-section {
+  margin-bottom: 120px;
+}
 
+.latest-deals-header {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.latest-deals-title {
+  margin-bottom: 16px;
+}
 
+.latest-deals-description {
+  margin-bottom: 120px;
+}
+
+.latest-deals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 220px);
+  column-gap: 30px;
+}
+
+.deal-card {
+  position: relative;
+}
+
+.deal-card-overlay {
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  left: 50px;
+}
+
+.deal-right-1 {
+  margin-bottom: 25px;
+}
+
+.deal-card-large .deal-card-overlay {
+  position: absolute;
+  top: 170px;
+  left: 128px;
+}
 /* FOOTER SECTION STYLES */
 
 /* RESPONSIVE STYLES */

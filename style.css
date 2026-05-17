@@ -396,6 +396,75 @@ li {
   text-decoration-style: solid;
 }
 
+/* NEWSLETTER SECTION */
+
+.newsletter-section {
+  background-image: url("./assets/news-letter-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 533px;
+  margin-bottom: 40px;
+
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-content {
+  max-width: 830px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-title {
+  color: #ffffff;
+  font-family: var(--font-nato-serif);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: normal;
+  text-align: center;
+
+  margin-bottom: 23px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-input {
+  padding: 8px 20px;
+  background-color: #ffffff;
+  width: 100%;
+  border: none;
+  outline: none;
+
+  color: var(--washed-out-purple);
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: normal;
+}
+
+.newsletter-button {
+  max-width: 186px;
+  padding: 26px 50px;
+  background-color: var(--forest-fire);
+
+  color: var(--full-white);
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 100%;
+  letter-spacing: normal;
+  border: none;
+  outline: none;
+}
+
 /* FOOTER SECTION STYLES */
 
 /* RESPONSIVE STYLES */

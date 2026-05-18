@@ -570,6 +570,16 @@ li {
     width: 100%;
     padding-right: 10px;
   }
+
+  /* NEWSLETTER SECTION */
+  .newsletter-form {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .newsletter-title {
+    font-size: 40px;
+  }
 }
 
 /* FOR SMALL DEVICES */
@@ -689,5 +699,19 @@ li {
   .deal-card-large .deal-card-overlay {
     top: 100px;
     left: 30px;
+  }
+
+  /* NEWSLETTER SECTION */
+  .newsletter-title {
+    font-size: 20px;
+  }
+
+  .newsletter-form {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .newsletter-section {
+    background-size: contain;
   }
 }
